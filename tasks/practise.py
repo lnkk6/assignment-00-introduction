@@ -18,15 +18,23 @@ s=input('what is your name? ')
 print(f'Hello, {s}! Nice to meet you!')
 
 for item in a:
+<<<<<<< HEAD
     print(item)
 
+=======
+    print(a)
+>>>>>>> origin/main
     divisors = []
     for i in range (2, item + 1):
         if item % i == 0:
             divisors.append(i)
     print(divisors)
 
+<<<<<<< HEAD
 
+=======
+for item in a:
+>>>>>>> origin/main
     primes = []
     for i in range (2, int(item**0.5)+1):
         while item % i == 0:
